@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripadvisor:Over a billion reviews</title>
+
+    <!--Google font-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--My stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar__logo">
+                <img src="logo.svg" alt="tripadvisor logo">
+                <h1>Tripadvisor</h1>
+            </div>
+            <div class="navbar__titles">
+                <p>Discover</p>
+                <p>Trips</p>
+                <p>Review</p>
+                <p>More</p>
+            </div>
+            <div class="navbar__signin">
+                <div class="currency-hover">
+                    <svg viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#002b11" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M9.31 9.82h4.178c-.069-1.591-.356-2.993-.766-4.017-.237-.593-.501-1.023-.756-1.293-.211-.223-.38-.3-.5-.32h-.133c-.12.02-.289.097-.5.32-.255.27-.519.7-.756 1.293-.41 1.024-.697 2.426-.767 4.017m-.374-5.14q-.135.272-.252.566C8.194 6.472 7.88 8.07 7.81 9.82H5.055a6.39 6.39 0 0 1 3.88-5.14m2.301-1.989a7.883 7.883 0 0 0-7.726 7.88 7.88 7.88 0 0 0 7.884 7.885c.584 0 .871-.014 1.11-.074.124-.031.172-.049.213-.064.058-.02.099-.036.312-.073l-.26-1.477a4 4 0 0 0-.628.159c-.031.007-.132.029-.743.029-.121 0-.313-.06-.566-.327-.255-.27-.519-.699-.756-1.292-.41-1.025-.697-2.426-.767-4.017h4.203a4.7 4.7 0 0 1-.113.843 6 6 0 0 1-.112.413l-.012.04-.004.016c-.034.114-.089.298-.1.478l1.498.088v.006s.007-.035.044-.161l.012-.04c.038-.126.09-.298.136-.505.072-.313.134-.698.152-1.178h2.734a4.2 4.2 0 0 1-.195.949c-.055.16-.11.28-.166.403l-.004.01-.01.02c-.046.101-.132.288-.161.486l1.484.219-.005.026s.012-.032.057-.13l.008-.018c.056-.123.137-.3.216-.529.168-.49.31-1.168.31-2.186a7.88 7.88 0 0 0-7.72-7.879 2 2 0 0 0-.325 0m2.626 1.99q.134.271.252.565c.49 1.226.805 2.824.875 4.574h2.75a6.38 6.38 0 0 0-3.877-5.14M8.94 16.466a8 8 0 0 1-.256-.573c-.49-1.227-.805-2.824-.875-4.574H5.055a6.39 6.39 0 0 0 3.885 5.147" />
+                        <path fill="#002b11" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M20.489 12.343h-8.75v6.648h5.255l3.495 2.325zm-1.5 1.5v4.674l-1.542-1.026H13.24v-3.648z" />
+                    </svg>
+                    <p class="line">|</p>
+                    <p>INR</p>
+                </div>
+                <p class="signin__btn">Sign in</p>
+            </div>
+
+        </div>
+    </div>
+
+    <h1 class="where">Where to?</h1>
+    <div class="menubar">
+        <div class="menu-item">
+            <img src="house.png" alt="Search All">
+            <p class="search">Search All</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="hotel.png" alt="Hotels">
+            <p>Hotels</p>
+        </div>
+
+        <div class="menu-item">
+            <i class="fa-regular fa-camera" style="color: #002b11;"></i>
+            <p>Things to Do</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="restaurant.png" alt="Restaurants">
+            <p>Restaurants</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="airplane.png" alt="Flights">
+            <p>Flights</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="keys.png" alt="Holiday Homes">
+            <p>Holiday Homes</p>
+        </div>
+    </div>
+
+    <div class="searchbar">
+        <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+        <input placeholder="Places to go, things to do, hotels...">
+        <p class="searchbtn">Search</p>
+    </div>
+
+    <div class="main">
+        <img src="mainimg.jpg" alt="best restaurants">
+        <div class="main__text">
+            <h2>2025’s best restaurants in the world</h2>
+            <p>Grab a bite at a top-rated spot with our Travellers’ Choice Awards Best of the Best.</p>
+        </div>
+        <p class="reveal">Reveal the winners</p>
+    </div>
+    </div>
+
+    <div class="mealwinner">
+        <h3>Make your next meal a winner</h3>
+        <p>2025’s Travellers’ Choice Awards Best of the Best Restaurants</p>
+        <div class="mealwinner__cards">
+            <div class="mealwinner__item">
+                <img src="fine dining.jpg" alt="fine dining">
+                <p>Fine Dining</p>
+            </div>
+
+            <div class="mealwinner__item">
+                <img src="hidden gems.jpg" alt="hidden gems">
+                <p>Hidden gems</p>
+            </div>
+
+            <div class="mealwinner__item">
+                <img src="casual dining.jpg" alt="casual dining">
+                <p>Casual Dining</p>
+            </div>
+
+            <div class="mealwinner__item">
+                <img src="vegan.jpg" alt="vegan">
+                <p>Vegan & Vegetarian</p>
+            </div>
+        </div>
+
+        <div class="chennai">
+            <h3>Explore experiences near Chennai (Madras)</h3>
+            <p>Can’t-miss picks near you</p>
+            <div class="chennai__cards">
+                <div class="chennai__cards__items">
+                    <img src="ch1.jpg">
+                    <h3>Total Chennai city route in private car with guide and lunch by Wander Tours</h3>
+                    <p>4.9 🟢🟢🟢🟢 (63)</p>
+                    <h5>from 5,002/- per adult</h5>
+                </div>
+
+                <div class="chennai__cards__items">
+                    <img src="ch2.jpg">
+                    <h3>Mahabalipuram Tourism by tourists approved company</h3>
+                    <p>5.0 🟢🟢🟢🟢🟢 (325)</p>
+                    <h5>from 9,094/- per adult</h5>
+                </div>
+
+                <div class="chennai__cards__items">
+                    <img src="ch3.jpg">
+                    <h3>Pondicherry tour from Chennai</h3>
+                    <p>5.0 🟢🟢🟢🟢🟢 (5)</p>
+                    <h5>from 4,002/- per adult</h5>
+                </div>
+
+                <div class="chennai__cards__items">
+                    <img src="ch4.jpg">
+                    <h3>Traditional cooking class in Chennai in Local home by Sundari</h3>
+                    <p>4.9 🟢🟢🟢🟢 (192)</p>
+                    <h5>from 7,094/- per adult</h5>
+                </div>
+            </div>
+
+            <div class="inspiration">
+                <h3>Inspiration to get you going</h3>
+                <div class="inspiration__cards">
+                    <div class="inspiration__items">
+                        <img src="in1.jpg">
+                        <a href="https://www.tripadvisor.com/Articles-lQK8b4KL9ZBU-Fall_travel.html">Your go-to guide
+                            for Travel</a>
+                    </div>
+
+                    <div class="inspiration__items">
+                        <img src="in2.jpg">
+                        <a
+                            href="https://www.tripadvisor.com/Articles-lgQ7ZOvEYzs0-Best_fall_foliage_train_trips_in_the_us.html">How
+                            to see North America's fall foliage by train</a>
+                    </div>
+
+                    <div class="inspiration__items">
+                        <img src="in3.jpg">
+                        <a href="https://www.tripadvisor.com/Articles-lO6aVy3q8eMQ-Haunted_hotel_traveler_stories.html">Inside
+                            the world's spookiest hotels</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chennai">
+            <h3>Things to do—right now</h3>
+            <p>Seasonal faves you don’t want to miss</p>
+            <div class="chennai__cards">
+                <div class="chennai__cards__items">
+                    <img src="t1.jpg">
+                    <h3>Complete Douro Valley Wine Tour with Lunch, Wine Tastings and River Cruise</h3>
+                    <p>4.9 🟢🟢🟢🟢 (10,111)</p>
+                    <h5>from 10,567 per adult</h5>
+                </div>
+
+                <div class="chennai__cards__items">
+                    <img src="t2.jpg">
+                    <h3>Northern Lights Rovaniemi: Guaranteed Viewing & Unlimited Mileage</h3>
+                    <p>4.9 🟢🟢🟢🟢 (1,511)</p>
+                    <h5>from 21,240 per adult</h5>
+                </div>
+
+                <div class="chennai__cards__items">
+                    <img src="t3.jpg">
+                    <h3>From Cape Town: Full Day Guided Hermanus and Whale Tour</h3>
+                    <p>4.9 🟢🟢🟢🟢 (153)</p>
+                    <h5>from 15,163 per adult</h5>
+                </div>
+
+                <div class="chennai__cards__items">
+                    <img src="t4.jpg">
+                    <h3>Munich Oktoberfest Guided Experience with Beer and Food</h3>
+                    <p>4.9 🟢🟢🟢🟢 (42)</p>
+                    <h5>from 20,813 per adult</h5>
+                </div>
+            </div>
+
+            <div class="iconic">
+                <h3>Iconic places you need to see</h3>
+                <div class="iconic__cards">
+                    <div class="iconic__item">
+                        <img src="ic1.jpg">
+                        <p>Rome, Italy</p>
+                    </div>
+
+                    <div class="iconic__item">
+                        <img src="ic2.jpg">
+                        <p>Paris, France</p>
+                    </div>
+
+                    <div class="iconic__item">
+                        <img src="ic3.jpg">
+                        <p>Logos Vegas, NV</p>
+                    </div>
+
+                    <div class="iconic__item">
+                        <img src="ic4.jpg">
+                        <p>Reykjavik, Iceland</p>
+                    </div>
+                </div>
+
+                <div class="watch">
+                    <div class="watchimg">
+                        <img src="watch.jpg">
+                    </div>
+                    <div class="watchtext">
+                        <h5>
+                            <img src="logo.svg" class="tiny-logo">
+                            Sponsored by <u>Wanderlab</u>
+                        </h5>
+                        <h2>Watch The Wanderer</h2>
+                        <h5>Tripadvisor’s award-winning travel series, now streaming on Amazon Prime Video</h5>
+                        <h5 class="watchbtn">Learn More</h5>
+                    </div>
+                </div>
+
+                <div class="browsed">
+                    <h1>Browse themed collections</h1>
+                    <div class="browsed__cards">
+                        <div class="browsed__item">
+                            <img src="br1.jpg">
+                            <p>Autumn in Amsterdam</p>
+                            <a href="https://www.tripadvisor.in/Collections-e6ViNjSNRfApAo7sIVZ8D22.html">See what makes
+                                the city magical at this time of the year</a>
+                        </div>
+
+                        <div class="browsed__item">
+                            <img src="br2.jpg">
+                            <p>Chicago on a dime</p>
+                            <a href="https://www.tripadvisor.in/Collections-e5ERbhRj6UqmuTs5qzj2Vpm.html">Eats and
+                                activities that won't break the back</a>
+                        </div>
+
+                        <div class="browsed__item">
+                            <img src="br3.jpg">
+                            <p>Hearty polish eats</p>
+                            <a href="https://www.tripadvisor.in/Collections-e2xOQAkC2XTlwZ598058oX2.html">Pierogies,
+                                keilbasa and so much more</a>
+                        </div>
+
+                        <div class="browsed__item">
+                            <img src="br4.jpg">
+                            <p>Soak up wine country</p>
+                            <a href="https://www.tripadvisor.in/Collections-e1YnOoOspf7PCb4Vb2Nv72g.html">Doable Day
+                                trips to Naba and Sonoma</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer">
+                    <div class="about">
+                        <h5>About Tripadvisor</h5>
+                        <p>About Us</p>
+                        <p>Press</p>
+                        <p>Resources and Policies</p>
+                        <p>Careers</p>
+                        <p>Trust & Safety</p>
+                        <p>Contact us</p>
+                        <p>Tripadvisor Technology Blog</p>
+                    </div>
+
+                    <div class="explore">
+                        <h5>Explore</h5>
+                        <p>Write a review</p>
+                        <p>Add a place</p>
+                        <p>Join</p>
+                        <p>Travellers' Choice</p>
+                        <p>Help centre</p>
+                        <p>Travel Stories</p>
+                    </div>
+                    <div class="busapp">
+                        <div class="business">
+                            <h5>Do Business with us</h5>
+                            <p>Owners</p>
+                            <p>Business Advantage</p>
+                            <p>Sponsered Placements</p>
+                            <p>Access our Content API</p>
+                        </div>
+
+                        <div class="getapp">
+                            <h5>Get the App</h5>
+                            <p>iPhone App</p>
+                            <p>Android app</p>
+                        </div>
+                    </div>
+
+                    <div class="sites">
+                        <h5>Tripadvisor Sites</h5>
+                        <p>Book tours and attraction tickets on <u>Viator</u></p>
+                    </div>
+                </div>
+
+                <div class="footer__one">
+                    <img src="logo.svg">
+                    <p>© 2025 Tripadvisor LLC All rights reserved.</p>
+                </div>
+                <div class="footer__one__items">
+                    <p>Terms of use</p>
+                    <p>Privacy and Cookies Statements</p>
+                    <p>Cookie consent</p>
+                    <p>Site map</p>
+                    <p>How the site works</p>
+                    <p>Contact us</p>
+                    <p>Accessibility Statement</p>
+                </div>
+
+                <div class="footer__two">
+                    <p>This is the version of our website addressed to speakers of English in India. If you are a
+                        resident of another country or region, please select the appropriate version of Tripadvisor
+                        for your country or region in the drop-down menu...</p>
+                </div>
+
+                <div class="social">
+                    <i class="fa-brands fa-facebook fa-xl" style="color: #002b11;"></i>
+                    <i class="fa-brands fa-x-twitter fa-xl" style="color: #002b11;"></i>
+                    <i class="fa-brands fa-instagram fa-xl" style="color: #002b11;"></i>
+                    <i class="fa-brands fa-youtube fa-xl" style="color: #002b11;"></i>
+                </div>
+
+                <div class="ollie">
+                    <img src="stars.png">
+                    <p>Ask Ollie</p>
+                </div>
+
+
+</body>
+
+</html>
